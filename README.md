@@ -1,5 +1,7 @@
 # speech-analyzer-cli
 
+[![Changelog](https://img.shields.io/github/v/release/simonw/speech-analyzer-cli?include_prereleases&label=changelog)](https://github.com/simonw/speech-analyzer-cli/releases)
+
 A small macOS command-line interface for Apple's on-device `SpeechAnalyzer` and `SpeechTranscriber` APIs. It transcribes prerecorded audio and can emit plain text, word-level JSON, JSONL, SubRip, or WebVTT.
 
 Built using [GPT-5.6 Sol high in ChatGPT](https://chatgpt.com/share/6a55d11e-f0b8-83e8-8e50-2c690d6bfb0a) followed by [GPT-5.6 Sol xhigh in Codex CLI](https://gisthost.github.io/?48edfae0b16a1e58351ab2317894ddc1) to fix some bugs.
