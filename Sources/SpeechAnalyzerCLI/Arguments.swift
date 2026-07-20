@@ -115,7 +115,7 @@ enum CLIError: Error, CustomStringConvertible {
         case .help:
             return Arguments.usage
         case .version:
-            return "speech-analyzer 0.1.0"
+            return "speech-analyzer 0.2.0"
         case .usage(let message), .failure(let message):
             return message
         }

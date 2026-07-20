@@ -47,7 +47,7 @@ struct SpeechAnalyzerCommand {
         } catch CLIError.help {
             print(Arguments.usage)
         } catch CLIError.version {
-            print("speech-analyzer 0.1.0")
+            print("speech-analyzer 0.2.0")
         } catch let error as CLIError {
             fputs("Error: \(error)\n\n\(Arguments.usage)\n", stderr)
             Darwin.exit(2)
